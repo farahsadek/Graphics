@@ -1,5 +1,6 @@
 #include <glut.h>
 
+
 float rotAng;
 
 void Display(void) {
@@ -30,6 +31,7 @@ void Anim() {
 
 void main(int argc, char** argv) {
 	glutInit(&argc, argv);
+
 
 	glutInitWindowSize(300, 300);
 	glutInitWindowPosition(150, 150);

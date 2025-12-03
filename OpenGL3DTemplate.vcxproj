@@ -82,8 +82,27 @@
     <None Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="source.cpp" />
+    <ClCompile Include="Audio.cpp" />
+    <ClCompile Include="HUD.cpp" />
+    <ClCompile Include="Lighting.cpp" />
+    <ClCompile Include="OpenGL3DTemplate.cpp" />
+    <ClCompile Include="ScoreSystem.cpp" />
+    <ClCompile Include="Collectibles.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Audio.h" />
+    <ClInclude Include="Collectibles.h" />
+    <ClInclude Include="HUD.h" />
+    <ClInclude Include="Lighting.h" />
+    <ClInclude Include="ScoreSystem.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Sounds\CLOCK.wav" />
+    <Media Include="Sounds\COIN.wav" />
+    <Media Include="Sounds\COLLISION.wav" />
+    <Media Include="Sounds\HONK.wav" />
+    <Media Include="Sounds\NITRO.wav" />
+    <Media Include="Sounds\SAYES1.wav" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
