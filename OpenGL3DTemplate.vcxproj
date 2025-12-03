@@ -84,6 +84,14 @@
   <ItemGroup>
     <ClCompile Include="OpenGL3DTemplate.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <Media Include="..\..\..\..\..\Downloads\CLOCK.wav" />
+    <Media Include="..\..\..\..\..\Downloads\COIN.wav" />
+    <Media Include="..\..\..\..\..\Downloads\COLLISION.wav" />
+    <Media Include="..\..\..\..\..\Downloads\HONK.wav" />
+    <Media Include="..\..\..\..\..\Downloads\NITRO.wav" />
+    <Media Include="..\..\..\..\..\Downloads\SAYES1.wav" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
